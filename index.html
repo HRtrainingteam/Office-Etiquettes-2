@@ -49,7 +49,7 @@ footer{text-align:center;color:#8b96a5;font-size:11px;margin-top:18px}
 const EMPLOYEES=["Mehar Singh","Sunanda Mandal","Kanika Malhotra","Ansh Tayal","Poonam Devi","Nikunj Agarwal","Prashant Bhojak","Amit Kumar Goyal","Saurabh Kumar","Avinash Gupta","Nilkesh Kumar Jha","Pawan Kumar Jha","Akshay Sharma","Hetika Bhatt","Reena","Abhinav Goel","Harmit Kumar","Vivek Kumar Jha","Dinesh Kumar","Siddharth Nigam"];
 const CATEGORIES=["Punctuality","Respectful Behaviour","Acts with Integrity","Appropriate Dressing & Professional Appearance","Team Collaboration"];
 // Paste your deployed Google Apps Script Web App URL here to enable Google Sheets saving.
-const GOOGLE_SCRIPT_URL="https://script.google.com/macros/s/AKfycby8HH85GxjHvALDz8uLTuV_ShDaqboOM05aY7i-wQCf9v4Tqz7LqvjJ2FWXaAirUbL8gg/exec";
+const GOOGLE_SCRIPT_URL="https://script.google.com/macros/s/AKfycbwaYHB5fDdK8NMNx0utUra3rJct8d4nwHvUH_Vvi3x7LhCBH1QsFFsoV6GXM3sLcsdgdg/exec";
 const $=id=>document.getElementById(id);
 let submitter="",employeeCode="",targets=[],ratings={};
 function show(section,step,title,desc){["identity","rating","review","done"].forEach(x=>$(x).classList.toggle("hidden",x!==section));$("stepLabel").textContent=step;$("cardTitle").textContent=title;$("cardDesc").textContent=desc;$("cardDesc").classList.toggle("hidden",section==="done");}
