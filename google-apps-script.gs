@@ -9,7 +9,7 @@
  *
  * This script is intentionally independent of the OLD repository/deployment.
  */
-const SPREADSHEET_ID = "https://docs.google.com/spreadsheets/d/1uhtajo3DJPryqasjJq5yO07ym2KiTRVjd7if0wH4s1s/edit?usp=sharing";
+const SPREADSHEET_ID = "1uhtajo3DJPryqasjJq5yO07ym2KiTRVjd7if0wH4s1s";
 const SHEET_NAME = "Peer Ratings";
 const EMPLOYEES = [
   "Mehar Singh", "Sunanda Mandal", "Kanika Malhotra", "Ansh Tayal",
